@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    position: relative;
+}
+
+::-webkit-scrollbar{
+    width: 0px;
+    height: 0px;
+}
+
+body>img{
+  width: 100vw;  
+}
+
+body>a{
+    display: block;
+    background-color: darkred;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+body>a:hover{
+    background-color: red;
+}
